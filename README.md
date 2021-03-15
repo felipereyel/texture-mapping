@@ -33,6 +33,12 @@ O programa pode ser rodado com os comandos:
 ```python project.py <path_textura> <path_original> <p0x> <p0y> <p1x> <p1y> <p2x> <p2y> <p3x> <p3y> [<output_path>]```   
 levando em consideracao o sistema de referencias: 
 <p align="center">
-  <img src="assets/reference.png" width="500" title="TS">
+  <img src="assets/reference.png" width="500" title="ref">
 </p>
-A imagem sera salva no output_path caso fornecido. Caso contrario, sera salva no diretorio de execucao com nome result.png
+A imagem sera salva no output_path caso fornecido. Caso contrario, sera salva no diretorio de execucao com nome result.png   
+
+Exemplo:   ```python project.py examples/possani.jpg examples/laptop_milico.jpg 96 87 199 76 252 202 158 240```   
+Resultara em: 
+<p align="center">
+  <img src="examples/possani_mata.png" width="500" title="TS">
+</p>

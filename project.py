@@ -58,7 +58,6 @@ if __name__ == "__main__":
 	original_points = []
 	for i in range(4):
 		original_points.append([int(sys.argv[3+2*i]), int(sys.argv[4+2*i]), 1])
-		print(original_points[i], "->", texture_points[i])
 
 	# transformation matrix
 	tranformation = solve_transformation(texture_points, original_points)
